@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Contacto\ContactoController;
+use App\Http\Controllers\Blog\BlogController;
+use App\Http\Controllers\Portafolio\PortafolioController;
+use App\Http\Controllers\Team\TeamController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +24,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.home');
 });
+
+Route::get('/contacto',[ContactoController::class,'index'])->name('viewcontacto');
+Route::get('/blog',[BlogController::class,'index'])->name('viewblog');
+Route::get('/portafolio',[PortafolioController::class,'index'])->name('viewportafolio');
+Route::get('/equipo',[TeamController::class,'index'])->name('viewteam');

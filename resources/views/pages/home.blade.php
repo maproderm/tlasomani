@@ -1,7 +1,10 @@
 @extends('index')
 @section('title','Tlasomani | Sistema de Control de procesos de producción y pagos de nómina')
 @section('content')
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=+525555061231&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20Tlasomani." class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
    <!-- Welcome Area -->
    <div class="welcome-area hero4">
     <!-- Hero Background Shape -->
@@ -40,7 +43,7 @@
               <!-- Shape -->
               <div class="video-shape"><img src="img/core-img/hero-3-2.png" alt=""></div>
               <div class="video-card-slides hero4-2-slide-wrap">
-                <div class="rounded"><img class="rounded" src="img/bg-img/9.jpg" alt=""></div>
+                <div class="rounded"><img class="rounded" src="img/bg-img/9.jpeg" alt=""></div>
                 <div class="rounded"><img class="rounded" src="img/bg-img/10.jpg" alt=""></div>
                 <div class="rounded"><img class="rounded" src="img/bg-img/11.jpg" alt=""></div>
               </div>
@@ -85,7 +88,7 @@
             <div class="card-body p-0 px-lg-0">
               <div class="icon"><i class="bi bi-columns"></i></div>
               <h5>Empleados</h5>
-              <p>It's crafted with the latest trend of design.</p><a class="btn btn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
+              <p>It's crafted with the latest trend of design.</p><a class="btn xbtn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
             </div>
           </div>
         </div>
@@ -95,7 +98,7 @@
             <div class="card-body p-0 px-lg-0">
               <div class="icon"><i class="bi bi-pie-chart"></i></div>
               <h5>Órdenes de maquila</h5>
-              <p>It's crafted with the latest trend of design.</p><a class="btn btn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
+              <p>It's crafted with the latest trend of design.</p><a class="btn xbtn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
             </div>
           </div>
         </div>
@@ -105,7 +108,7 @@
             <div class="card-body p-0 px-lg-0">
               <div class="icon"><i class="bi bi-sun"></i></div>
               <h5>Nóminas</h5>
-              <p>It's crafted with the latest trend of design.</p><a class="btn btn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
+              <p>It's crafted with the latest trend of design.</p><a class="btn xbtn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
             </div>
           </div>
         </div>
@@ -115,7 +118,7 @@
             <div class="card-body p-0 px-lg-0">
               <div class="icon"><i class="bi bi-tools"></i></div>
               <h5>Consultas y reportes</h5>
-              <p>It's crafted with the latest trend of design.</p><a class="btn btn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
+              <p>It's crafted with the latest trend of design.</p><a class="btn xbtn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
             </div>
           </div>
         </div>
@@ -125,7 +128,7 @@
             <div class="card-body p-0 px-lg-0">
               <div class="icon"><i class="bi bi-play"></i></div>
               <h5>Seguridad</h5>
-              <p>It's crafted with the latest trend of design.</p><a class="btn btn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
+              <p>It's crafted with the latest trend of design.</p><a class="btn xbtn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
             </div>
           </div>
         </div>
@@ -238,6 +241,121 @@
     </div>
   </div>
 
+  <div class="mb-120 d-block"></div>
+  {{-- Otros servicios --}}
+  <div class="feature-area bg-primary pt-120 pb-120">
+    <!-- Background Shape -->
+    <div class="background-shape wow fadeInLeftBig" data-wow-duration="4000ms"></div>
+    <!-- Curve Top Shape-->
+    <div class="curve-shape-top"></div>
+    <!-- Curve Bottom Shape-->
+    <div class="curve-shape-bottom"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-9 col-lg-8">
+          <div class="section-heading text-center white">
+            <h6>2016 - 2022</h6>
+            <h2>From 2016, we providing our services, check our best solutions.</h2>
+            <p>It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <!-- Single Feature Area -->
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+          <div class="card feature-card">
+            <div class="card-body d-flex align-items-center"><i class="bg-primary bi bi-tools"></i>
+              <div class="fea-text">
+                <h6>Control de pagos por destajo</h6><span>Ultimate Solution for WP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Feature Area -->
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+          <div class="card feature-card">
+            <div class="card-body d-flex align-items-center"><i class="bg-success bi bi-brush"></i>
+              <div class="fea-text">
+                <h6>Frontend Solution</h6><span>Solution for Webs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Feature Area -->
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+          <div class="card feature-card">
+            <div class="card-body d-flex align-items-center"><i class="bg-info bi bi-bar-chart"></i>
+              <div class="fea-text">
+                <h6>Reportes y estadísticas</h6><span>Boot your sales</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Feature Area -->
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+          <div class="card feature-card">
+            <div class="card-body d-flex align-items-center"><i class="bg-danger bi bi-twitter"></i>
+              <div class="fea-text">
+                <h6>Live Chat Help</h6><span>Support 24h a day</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Feature Area -->
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+          <div class="card feature-card">
+            <div class="card-body d-flex align-items-center"><i class="bg-warning bi bi-gear"></i>
+              <div class="fea-text">
+                <h6>Control de Asistencias</h6><span>Solution for setup</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Feature Area -->
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+          <div class="card feature-card">
+            <div class="card-body d-flex align-items-center"><i class="bg-success bi bi-bug"></i>
+              <div class="fea-text">
+                <h6>Control de usuarios</h6><span>Unlimited bug fix</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Feature Area -->
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+          <div class="card feature-card">
+            <div class="card-body d-flex align-items-center"><i class="bg-info bi bi-bar-chart"></i>
+              <div class="fea-text">
+                <h6>Digital Branding</h6><span>Boot your sales</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Feature Area -->
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+          <div class="card feature-card">
+            <div class="card-body d-flex align-items-center"><i class="bg-primary bi bi-twitter"></i>
+              <div class="fea-text">
+                <h6>Asesoria las 24 horas</h6><span>Support 24h a day</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Feature Area -->
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+          <div class="card feature-card">
+            <div class="card-body d-flex align-items-center"><i class="bg-danger bi bi-gear"></i>
+              <div class="fea-text">
+                <h6>Pagos al IMSS e INFONAVIT</h6><span>Solution for setup</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="mb-120 d-block"></div>
   <!-- Pricing Plan Area-->
   <div class="saasbox-pricing-plan-area price2">
@@ -360,7 +478,7 @@
         <div class="portfolio2-slides">
           <div>
             <!-- Single Portfolio Area -->
-            <div class="single-portfolio-area"><img src="img/bg-img/p22.jpg" alt="">
+            <div class="single-portfolio-area"><img src="img/bg-img/p22.jpeg" alt="">
               <!-- Ovarlay Content -->
               <div class="overlay-content">
                 <div class="portfolio-title">
@@ -372,7 +490,7 @@
           </div>
           <div>
             <!-- Single Portfolio Area -->
-            <div class="single-portfolio-area"><img src="img/bg-img/p23.jpg" alt="">
+            <div class="single-portfolio-area"><img src="img/bg-img/p23.jpeg" alt="">
               <!-- Ovarlay Content -->
               <div class="overlay-content">
                 <div class="portfolio-title">
@@ -422,55 +540,180 @@
       </div>
     </div>
   </div>
-  <!-- Client Feedback Area -->
-  <div class="client-feedback-area feedback-2 pt-120 pb-120">
+  <!-- Testimonios -->
+  <div class="client-feedback-area bg-gray pt-120 pb-120">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 col-sm-9 col-lg-7">
+        <div class="col-12 col-sm-9 col-md-8 col-lg-7">
           <div class="section-heading text-center">
-            <h6>Testimonials</h6>
-            <h2>Read some reviews from our beloved clients about our work.</h2>
+            <h6>Testimonios</h6>
+            <h2>Lea algunas reseñas de nuestros queridos clientes sobre nuestro trabajo..</h2>
             <p>It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template.</p>
           </div>
         </div>
       </div>
     </div>
     <div class="container">
-      <div class="circle-testimonial-wrapper rounded-circle wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-        <div class="circle-tes-sub-wrap1 position-absolute rounded-circle"></div>
-        <div class="circle-tes-sub-wrap2 position-absolute rounded-circle"></div>
-        <div class="circle-tes-sub-wrap3 position-absolute rounded-circle"></div>
-        <div class="circle-tes-sub-wrap4 position-absolute rounded-circle"></div>
-        <!-- Single Testimonial -->
-        <div class="cir-testimonial tes1" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="testimonial-popover" data-bs-container="body" data-bs-placement="bottom" title="Lim Jannat" data-bs-content="You've saved our business! Thanks guys, keep up the good work!"><img src="img/bg-img/t1.png" alt=""></div>
-        <!-- Single Testimonial -->
-        <div class="cir-testimonial tes2" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="testimonial-popover" data-bs-container="body" data-bs-placement="bottom" title="H. Riyadh" data-bs-content="I strongly recommend to everyone interested in running a business!"><img src="img/bg-img/t2.png" alt=""></div>
-        <!-- Single Testimonial -->
-        <div class="cir-testimonial tes3" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="testimonial-popover" data-bs-container="body" data-bs-placement="bottom" title="Suha R" data-bs-content="Absolutely wonderful! I wish I would have thought of it first. Excellent product!"><img src="img/bg-img/t3.png" alt=""></div>
-        <!-- Single Testimonial -->
-        <div class="cir-testimonial tes4" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="testimonial-popover" data-bs-container="body" data-bs-placement="bottom" title="A Islam" data-bs-content="You've saved our business! Thanks guys, keep up the good work!"><img src="img/bg-img/t1.png" alt=""></div>
-        <!-- Single Testimonial -->
-        <div class="cir-testimonial tes5" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="testimonial-popover" data-bs-container="body" data-bs-placement="bottom" title="Lim Suha" data-bs-content="I strongly recommend to everyone interested in running a business!"><img src="img/bg-img/t2.png" alt=""></div>
-        <!-- Single Testimonial -->
-        <div class="cir-testimonial tes6" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="testimonial-popover" data-bs-container="body" data-bs-placement="bottom" title="H. Khan" data-bs-content="You've saved our business! Thanks guys, keep up the good work!"><img src="img/bg-img/t3.png" alt=""></div>
-        <!-- Single Testimonial -->
-        <div class="cir-testimonial tes7" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="testimonial-popover" data-bs-container="body" data-bs-placement="bottom" title="Shai Hello" data-bs-content="Absolutely wonderful! I wish I would have thought of it first. Excellent product!"><img src="img/bg-img/t1.png" alt=""></div>
-        <!-- Single Testimonial -->
-        <div class="cir-testimonial tes8" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="testimonial-popover" data-bs-container="body" data-bs-placement="bottom" title="T Ninja" data-bs-content="I strongly recommend to everyone interested in running a business!"><img src="img/bg-img/t2.png" alt=""></div>
+      <div class="client-feedback-content">
+        <div class="client-feedback-slides">
+          <!-- Single Feedback Slide -->
+          <div>
+            <div class="card feedback-card border-0 p-2 shadow-sm">
+              <div class="card-body p-5 p-sm-4 p-md-5">
+                <div class="client-info d-flex align-items-center">
+                  <div class="client-thumb rounded-circle me-2 position-relative"><img class="rounded-circle" src="img/bg-img/t1.png" alt=""><span class="rounded-circle"><i class="bi bi-check"></i></span></div>
+                  <div class="client-name">
+                    <h6 class="fz-14 mb-0">Lim Jannat</h6>
+                    <p class="mb-0 fz-12">@lim_jannat</p>
+                  </div>
+                </div>
+                <div class="ratings text-warning mt-4 mb-3 fz-14"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="text-dark mb-0 fw-bold">You've saved our business! Thanks guys, keep up the good work!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Feedback Slide -->
+          <div>
+            <div class="card feedback-card border-0 p-2 shadow-sm">
+              <div class="card-body p-5 p-sm-4 p-md-5">
+                <div class="client-info d-flex align-items-center">
+                  <div class="client-thumb rounded-circle me-2 position-relative"><img class="rounded-circle" src="img/bg-img/t2.png" alt=""><span class="rounded-circle"><i class="bi bi-check"></i></span></div>
+                  <div class="client-name">
+                    <h6 class="fz-14 mb-0">Lim Jannat</h6>
+                    <p class="mb-0 fz-12">@lim_jannat</p>
+                  </div>
+                </div>
+                <div class="ratings text-warning mt-4 mb-3 fz-14"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="text-dark mb-0 fw-bold">I strongly recommend to everyone interested in running a business!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Feedback Slide -->
+          <div>
+            <div class="card feedback-card border-0 p-2 shadow-sm">
+              <div class="card-body p-5 p-sm-4 p-md-5">
+                <div class="client-info d-flex align-items-center">
+                  <div class="client-thumb rounded-circle me-2 position-relative"><img class="rounded-circle" src="img/bg-img/t3.png" alt=""><span class="rounded-circle"><i class="bi bi-check"></i></span></div>
+                  <div class="client-name">
+                    <h6 class="fz-14 mb-0">Lim Jannat</h6>
+                    <p class="mb-0 fz-12">@lim_jannat</p>
+                  </div>
+                </div>
+                <div class="ratings text-warning mt-4 mb-3 fz-14"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="text-dark mb-0 fw-bold">Absolutely wonderful! I wish I would have thought of it first. Excellent product!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Feedback Slide -->
+          <div>
+            <div class="card feedback-card border-0 p-2 shadow-sm">
+              <div class="card-body p-5 p-sm-4 p-md-5">
+                <div class="client-info d-flex align-items-center">
+                  <div class="client-thumb rounded-circle me-2 position-relative"><img class="rounded-circle" src="img/bg-img/t1.png" alt=""><span class="rounded-circle"><i class="bi bi-check"></i></span></div>
+                  <div class="client-name">
+                    <h6 class="fz-14 mb-0">Lim Jannat</h6>
+                    <p class="mb-0 fz-12">@lim_jannat</p>
+                  </div>
+                </div>
+                <div class="ratings text-warning mt-4 mb-3 fz-14"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="text-dark mb-0 fw-bold">You've saved our business! Thanks guys, keep up the good work!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Feedback Slide -->
+          <div>
+            <div class="card feedback-card border-0 p-2 shadow-sm">
+              <div class="card-body p-5 p-sm-4 p-md-5">
+                <div class="client-info d-flex align-items-center">
+                  <div class="client-thumb rounded-circle me-2 position-relative"><img class="rounded-circle" src="img/bg-img/t2.png" alt=""><span class="rounded-circle"><i class="bi bi-check"></i></span></div>
+                  <div class="client-name">
+                    <h6 class="fz-14 mb-0">Lim Jannat</h6>
+                    <p class="mb-0 fz-12">@lim_jannat</p>
+                  </div>
+                </div>
+                <div class="ratings text-warning mt-4 mb-3 fz-14"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="text-dark mb-0 fw-bold">I strongly recommend to everyone interested in running a business!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Feedback Slide -->
+          <div>
+            <div class="card feedback-card border-0 p-2 shadow-sm">
+              <div class="card-body p-5 p-sm-4 p-md-5">
+                <div class="client-info d-flex align-items-center">
+                  <div class="client-thumb rounded-circle me-2 position-relative"><img class="rounded-circle" src="img/bg-img/t3.png" alt=""><span class="rounded-circle"><i class="bi bi-check"></i></span></div>
+                  <div class="client-name">
+                    <h6 class="fz-14 mb-0">Lim Jannat</h6>
+                    <p class="mb-0 fz-12">@lim_jannat</p>
+                  </div>
+                </div>
+                <div class="ratings text-warning mt-4 mb-3 fz-14"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="text-dark mb-0 fw-bold">Absolutely wonderful! I wish I would have thought of it first. Excellent product!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Feedback Slide -->
+          <div>
+            <div class="card feedback-card border-0 p-2 shadow-sm">
+              <div class="card-body p-5 p-sm-4 p-md-5">
+                <div class="client-info d-flex align-items-center">
+                  <div class="client-thumb rounded-circle me-2 position-relative"><img class="rounded-circle" src="img/bg-img/t1.png" alt=""><span class="rounded-circle"><i class="bi bi-check"></i></span></div>
+                  <div class="client-name">
+                    <h6 class="fz-14 mb-0">Lim Jannat</h6>
+                    <p class="mb-0 fz-12">@lim_jannat</p>
+                  </div>
+                </div>
+                <div class="ratings text-warning mt-4 mb-3 fz-14"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="text-dark mb-0 fw-bold">You've saved our business! Thanks guys, keep up the good work!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Feedback Slide -->
+          <div>
+            <div class="card feedback-card border-0 p-2 shadow-sm">
+              <div class="card-body p-5 p-sm-4 p-md-5">
+                <div class="client-info d-flex align-items-center">
+                  <div class="client-thumb rounded-circle me-2 position-relative"><img class="rounded-circle" src="img/bg-img/t2.png" alt=""><span class="rounded-circle"><i class="bi bi-check"></i></span></div>
+                  <div class="client-name">
+                    <h6 class="fz-14 mb-0">Lim Jannat</h6>
+                    <p class="mb-0 fz-12">@lim_jannat</p>
+                  </div>
+                </div>
+                <div class="ratings text-warning mt-4 mb-3 fz-14"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="text-dark mb-0 fw-bold">I strongly recommend to everyone interested in running a business!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Feedback Slide -->
+          <div>
+            <div class="card feedback-card border-0 p-2 shadow-sm">
+              <div class="card-body p-5 p-sm-4 p-md-5">
+                <div class="client-info d-flex align-items-center">
+                  <div class="client-thumb rounded-circle me-2 position-relative"><img class="rounded-circle" src="img/bg-img/t3.png" alt=""><span class="rounded-circle"><i class="bi bi-check"></i></span></div>
+                  <div class="client-name">
+                    <h6 class="fz-14 mb-0">Lim Jannat</h6>
+                    <p class="mb-0 fz-12">@lim_jannat</p>
+                  </div>
+                </div>
+                <div class="ratings text-warning mt-4 mb-3 fz-14"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="text-dark mb-0 fw-bold">Absolutely wonderful! I wish I would have thought of it first. Excellent product!</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="container">
-      <div class="text-center"><a class="btn btn-warning mt-70" href="reviews.html">View All Reviews (16)</a></div>
-    </div>
   </div>
+  <div class="mb-120 d-block"></div>
+
   <!-- News Area-->
   <div class="saasbox-news-area news2">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-sm-9 col-lg-7 col-xxl-6">
           <div class="section-heading text-center">
-            <h6>Latest Blog's</h6>
-            <h2>Our Latest News</h2>
+            <h6>Ultimos blogs</h6>
+            <h2>Nuestras últimas noticias</h2>
             <p>It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template.</p>
           </div>
         </div>
@@ -480,9 +723,9 @@
       <div class="row justify-content-center g-4 g-md-5 g-lg-4 g-xl-5">
         <!-- Blog Card -->
         <div class="col-12 col-sm-10 col-md-6 col-lg-4">
-          <div class="card blog-card border-0"><a class="image-wrap d-block" href="blog-1.html"><img src="img/bg-img/blog4.jpg" alt=""></a>
-            <div class="card-body px-4 pb-0"><a class="badge bg-primary text-white mb-1" href="blog-1.html">News</a><a class="post-title d-block mb-3" href="blog-1.html">Seven ways agency can improve your business.</a>
-              <div class="post-meta"><span class="text-muted fz-14"><i class="bi bi-clock me-2"></i>2 min read</span></div>
+          <div class="card blog-card border-0"><a class="image-wrap d-block" href="blog-1.html"><img src="img/bg-img/blog4.jpeg" alt=""></a>
+            <div class="card-body px-4 pb-0"><a class="badge bg-primary text-white mb-1" href="blog-1.html">Nuevo</a><a class="post-title d-block mb-3" href="blog-1.html">Seven ways agency can improve your business.</a>
+              <div class="post-meta"><span class="text-muted fz-14"><i class="bi bi-clock me-2"></i>2 min de lectura</span></div>
             </div>
           </div>
         </div>
@@ -501,7 +744,7 @@
         <!-- Blog Card -->
         <div class="col-12 col-sm-10 col-md-6 col-lg-4">
           <div class="card blog-card border-0"><a class="image-wrap d-block" href="blog-1.html"><img src="img/bg-img/blog6.jpg" alt=""></a>
-            <div class="card-body px-4 pb-0"><a class="badge bg-primary text-white mb-1" href="blog-1.html">Trending</a><a class="post-title d-block mb-3" href="blog-1.html">Seven ways agency can improve your business.</a>
+            <div class="card-body px-4 pb-0"><a class="badge bg-primary text-white mb-1" href="blog-1.html">Tendencia</a><a class="post-title d-block mb-3" href="blog-1.html">Seven ways agency can improve your business.</a>
               <div class="post-meta"><span class="text-muted fz-14"><i class="bi bi-clock me-2"></i>3 min read</span></div>
             </div>
           </div>
