@@ -18,22 +18,22 @@
 		<meta property="og:site_name" content="IMAQ | Industrial Maquiladora, Industria Cosmética, Maquiladora de cosméticos, Maquiladora de maquillajes" />
 		<link rel="canonical" href="https://industrialmaquiladora.com/" />
 
-        
+
 
         <!-- Mobile Metas -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+        {{-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"> --}}
 
         <!-- Web Fonts  -->
-        <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7COpen+Sans:400,700,800&display=swap" rel="stylesheet" type="text/css">
+        {{-- <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7COpen+Sans:400,700,800&display=swap" rel="stylesheet" type="text/css"> --}}
 
         <!-- Vendor CSS -->
-        <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css?v='.rand()) }}">
+        {{-- <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css?v='.rand()) }}">
         <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css?v='.rand()) }}">
         <link rel="stylesheet" href="{{ asset('vendor/animate/animate.compat.css?v='.rand()) }}">
         <link rel="stylesheet" href="{{ asset('vendor/simple-line-icons/css/simple-line-icons.min.css?v='.rand()) }}">
         <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}">
         <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.theme.default.min.css?v='.rand()) }}">
-        <link rel="stylesheet" href="{{ asset('vendor/magnific-popup/magnific-popup.min.css?v='.rand()) }}">
+        <link rel="stylesheet" href="{{ asset('vendor/magnific-popup/magnific-popup.min.css?v='.rand()) }}"> --}}
 
         <!-- Theme CSS -->
         {{-- <link rel="stylesheet" href="{{ asset('css/theme.css?v='.rand()) }}">
@@ -42,7 +42,7 @@
         <link rel="stylesheet" href="{{ asset('css/theme-shop.css?v='.rand()) }}"> --}}
 
         <!-- WhatsApp -->
-        <link rel="stylesheet" href="{{ asset('css/whatsapp.css?v='.rand()) }}">
+        {{-- <link rel="stylesheet" href="{{ asset('css/whatsapp.css?v='.rand()) }}"> --}}
 
         <!-- Demo CSS -->
         {{-- <link rel="stylesheet" href="{{ asset('css/demos/demo-landing.css?v='.rand()) }}"> --}}
@@ -57,27 +57,27 @@
         {{-- <script src="{{ asset('vendor/modernizr/modernizr.min.js?v='.rand()) }}"></script> --}}
 
         <!-- All CSS Stylesheet-->
-        <link rel="stylesheet" href="css/all-css-libraries.css">
+        {{-- <link rel="stylesheet" href="css/all-css-libraries.css"> --}}
 
         <!-- Core Stylesheet-->
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
         <link rel="stylesheet" href="{{ asset('css/style.css?v='.rand()) }}">
-        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css?v='.rand()) }}">
-        <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css?v='.rand()) }}">
-        <link rel="stylesheet" href="{{ asset('css/all-css-libraries.css?v='.rand()) }}">
+        {{-- <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css?v='.rand()) }}"> --}}
+        {{-- <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css?v='.rand()) }}"> --}}
+        {{-- <link rel="stylesheet" href="{{ asset('css/all-css-libraries.css?v='.rand()) }}"> --}}
 
         <!-- Favicon-->
-        <link rel="shortcut icon" href="img/core-img/favicon.ico" type="image/x-icon">
-        
+        {{-- <link rel="shortcut icon" href="{{ asset('img/core-img/favicon.ico') }}" type="image/x-icon"> --}}
+
         <!-- All CSS Stylesheet-->
-        <link rel="stylesheet" href="css/all-css-libraries.css">
+        <link rel="stylesheet" href="{{ asset('css/all-css-libraries.css?v='.rand())}}">
 
         {{-- Fontwesome --}}
-        <script src="https://kit.fontawesome.com/d97648113a.js" crossorigin="anonymous"></script>
+        {{-- <script src="https://kit.fontawesome.com/d97648113a.js" crossorigin="anonymous"></script> --}}
 
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        {{-- <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> --}}
 
-        
+
 
     </head>
     <body data-plugin-page-transition>

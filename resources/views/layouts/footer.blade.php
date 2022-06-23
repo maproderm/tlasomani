@@ -20,20 +20,20 @@
         <!-- Footer Widget Area-->
         <div class="col-12 col-sm-6 col-lg-3">
           <div class="footer-widget-area">
-            <h5 class="mb-4">Our Products</h5>
+            <h5 class="mb-4">Nuestro productos</h5>
             <ul class="list-unstyled">
-              <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Suha Mobile</a></li>
-              <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Affan Mobile</a></li>
-              <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Newsten Blog</a></li>
-              <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Classy Multipurpose</a></li>
-              <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Educamp Education</a></li>
+              <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Tlasomani</a></li>
+              <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Iximati</a></li>
+              <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Yachay</a></li>
+              <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Padi</a></li>
+              <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Patlali</a></li>
             </ul>
           </div>
         </div>
         <!-- Footer Widget Area-->
         <div class="col-12 col-sm-6 col-lg-3">
           <div class="footer-widget-area">
-            <h5 class="mb-4">Important Links</h5>
+            <h5 class="mb-4">Enlaces importantes</h5>
             <ul class="list-unstyled">
               <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>Community &amp; Forum</a></li>
               <li><a href="#" target="_blank"><i class="bi bi-caret-right"></i>About Licences</a></li>
@@ -46,9 +46,9 @@
         <!-- Footer Widget Area -->
         <div class="col-12 col-sm-6 col-lg-3">
           <div class="footer-widget-area">
-            <h5 class="mb-4">Our Location</h5>
-            <p class="lh-base mb-3">Designing World Inc. <br> 1604 NSD, Dhaka, BD</p>
-            <p class="mb-0">Call: +123 456 789 <br> Email: help@example.com</p>
+            <h5 class="mb-4">Nuestra ubicación</h5>
+            <p class="lh-base mb-3">Bosques de Malasia 10, Bosques de Aragón, Nezahualcoyotl<br> Estado de México</p>
+            <p class="mb-0">Teléfono: +52 (01) 62-77-54-07 <br> Correo: amoxcalli@amoxcalli.com</p>
             <!-- Footer Social Icon -->
             <div class="footer-social-icon d-flex align-items-center mt-3"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facbook"><i class="bi bi-facebook"></i></a><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="bi bi-twitter"></i></a><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="bi bi-instagram"></i></a><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin"><i class="bi bi-linkedin"></i></a><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Youtube"><i class="bi bi-youtube"></i></a></div>
           </div>
@@ -59,14 +59,14 @@
       <div class="copywrite-wrapper mt-5 rounded d-lg-flex align-items-lg-center justify-content-lg-between">
         <!-- Copywrite Text -->
         <div class="copywrite-text text-center text-lg-start mb-3 mb-lg-0 me-lg-4">
-          <p class="mb-0">2021 &copy; All rights reserved by <a href="#" target="_blank">Designing World</a></p>
+          <p class="mb-0">2022 &copy; Todos los derechos reservados por <a href="https://amoxcalli.com/" target="_blank">Amoxcalli Consultores</a></p>
         </div>
         <!-- Footer Nav -->
         <div class="footer-nav mb-3 mb-lg-0 me-lg-4">
           <ul class="mb-0 d-flex flex-wrap justify-content-center list-unstyled">
-            <li><a href="#" target="_blank">Privacy Policy</a></li>
-            <li><a href="#" target="_blank">Terms &amp; Conditions</a></li>
-            <li><a href="#" target="_blank">Get Support</a></li>
+            <li><a href="#" target="_blank">Política de privacidad</a></li>
+            <li><a href="#" target="_blank">Términos &amp; condiciones</a></li>
+            <li><a href="#" target="_blank">Obtener ayuda</a></li>
           </ul>
         </div>
         <!-- Dropup -->

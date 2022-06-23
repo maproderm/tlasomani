@@ -1,32 +1,51 @@
 @extends('index')
-@section('title','Laravel | Prueba')
+@section('title','Tlasomani | Sistema de Control de procesos de producción y pagos de nómina')
 @section('content')
 
    <!-- Welcome Area -->
-   <div class="welcome-area hero2 bg-white">
-    <!-- Background Shape -->
-    <div class="hero-background-shape"><img src="img/core-img/hero-2.png" alt=""></div>
-    <!-- Background Animation -->
-    <div class="background-animation">
-      <div class="item1"></div>
-      <div class="item4"></div>
-      <div class="item5"></div>
-    </div>
-    <!-- Hero Circle -->
-    <div class="hero2-big-circle"></div>
+   <div class="welcome-area hero4">
+    <!-- Hero Background Shape -->
+    <div class="hero4-bg-shape"><img src="img/core-img/hero-4.png" alt=""></div>
+    <!-- Hero Background Shape -->
+    <div class="hero4-bg-shape2"><img src="img/core-img/hero-4-2.png" alt=""></div>
     <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-between">
-        <div class="col-12 col-sm-10 col-md-6">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 col-md-6">
           <!-- Welcome Content -->
           <div class="welcome-content">
-            <h2 class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">We focus on the growth of your business.</h2>
-            <p class="mb-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template.</p>
-            <div class="d-flex align-items-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms"><a class="btn btn-warning mt-3" href="#">Get Started</a><a class="btn btn-danger btn-minimal mt-3 ms-3 play-button" href="https://www.youtube.com/watch?v=lFGvqvPh5jI">Play Video</a></div>
+            <div class="hero4-slide-controls">
+              <div class="hero4-1-slide-wrap">
+                <!-- Single Hero Slide -->
+                <div class="single-hero-slide"><span class="key-quote fw-bold">Tlasomani</span>
+                  <h2>Control de procesos de producción</h2>
+                  <p class="mb-4">It's crafted with the latest trend of design &amp; coded with all modern approaches.</p><a class="btn btn-info" href="#">Ver más</a>
+                </div>
+                <!-- Single Hero Slide -->
+                <div class="single-hero-slide"><span class="key-quote fw-bold">Tlasomani</span>
+                  <h2>Control de pagos de nómina en talleres de costura</h2>
+                  <p class="mb-4">It's crafted with the latest trend of design &amp; coded with all modern approaches.</p><a class="btn btn-warning" href="#">Ver más</a>
+                </div>
+                <!-- Single Hero Slide -->
+                <div class="single-hero-slide"><span class="key-quote fw-bold">Tlasomani</span>
+                  <h2>Gestión de inventarios</h2>
+                  <p class="mb-4">Reporte de existencias y almacenes en tiempo real</p><a class="btn btn-primary" href="#">Ver más</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-sm-10 col-md-6">
-          <!-- Welcome Thumb -->
-          <div class="welcome-thumb ms-xl-5 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><img src="img/illustrator/hero-6.png" alt=""></div>
+        <div class="col-12 col-sm-8 col-md-6">
+          <div class="welcome-thumb ms-5">
+            <div class="hero-video-card"><a class="video-play-btn play-button" href="https://youtu.be/rcusKwA-nVI"><i class="bi bi-play"></i><span class="video-sonar"></span></a>
+              <!-- Shape -->
+              <div class="video-shape"><img src="img/core-img/hero-3-2.png" alt=""></div>
+              <div class="video-card-slides hero4-2-slide-wrap">
+                <div class="rounded"><img class="rounded" src="img/bg-img/9.jpg" alt=""></div>
+                <div class="rounded"><img class="rounded" src="img/bg-img/10.jpg" alt=""></div>
+                <div class="rounded"><img class="rounded" src="img/bg-img/11.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -36,137 +55,189 @@
   </div>
   <div class="mb-120 d-block"></div>
   <!-- About Area -->
-  <div class="about-area">
+
+  <div class="mb-120 d-block"></div>
+  <div class="service-area">
     <div class="container">
-      <div class="about-content">
-        <div class="row g-5 g-lg-4">
-          <!-- Single About Area-->
-          <div class="col-12 col-sm-6 col-lg-3">                   
-            <div class="single-about-item text-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-              <div class="icon mx-auto mb-4"><img src="img/svg-icon/web.svg" alt=""></div>
-              <h5 class="mb-3">Web Design</h5>
-              <p class="mb-0">It's crafted with the latest trend of design &amp; coded with all modern approaches.</p>
-            </div>
-          </div>
-          <!-- Single About Area-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single-about-item text-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-              <div class="icon mx-auto mb-4"><img src="img/svg-icon/branding.svg" alt=""></div>
-              <h5 class="mb-3">Branding</h5>
-              <p class="mb-0">It's crafted with the latest trend of design &amp; coded with all modern approaches.</p>
-            </div>
-          </div>
-          <!-- Single About Area-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single-about-item text-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <div class="icon mx-auto mb-4"><img src="img/svg-icon/play.svg" alt=""></div>
-              <h5 class="mb-3">Apps Design</h5>
-              <p class="mb-0">It's crafted with the latest trend of design &amp; coded with all modern approaches.</p>
-            </div>
-          </div>
-          <!-- Single About Area-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single-about-item text-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
-              <div class="icon mx-auto mb-4"><img src="img/svg-icon/shopping.svg" alt=""></div>
-              <h5 class="mb-3">Ecommerce Solution</h5>
-              <p class="mb-0">It's crafted with the latest trend of design &amp; coded with all modern approaches.</p>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-9 col-lg-8">
+          <div class="section-heading text-center">
+            <h6>Amoxcalli Consultores presenta a:</h6>
+            <h2>Tlasomani - Control de procesos de producción y pagos de nómina</h2>
+            <p>It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template.</p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="mb-120 b-block"></div>
-    <div class="container">
-      <div class="row g-5 align-items-center justify-content-md-center justify-content-lg-between">
-        <!-- About Thumbnail Area -->
-        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-          <div class="aboutUs-thumbnail"><img class="w-100" src="img/bg-img/5.jpg" alt=""></div>
-        </div>
-        <!-- About Us Content Area -->
-        <div class="col-12 col-md-8 col-lg-6">
-          <div class="aboutUs-content">
-            <div class="section-heading mb-5">
-              <h6>What We Do</h6>
-              <h2>Increase your business growth with Saasbox.</h2>
-              <p>It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template.</p>
+      <div class="row justify-content-center g-4 g-xl-5">
+        <!-- Single Service -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card service-card wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
+            <div class="card-body p-0 px-lg-0">
+              <div class="icon"><i class="bi bi-app-indicator"></i></div>
+              <h5>Administración</h5>
+              <p>It's crafted with the latest trend of design.</p><a class="btn xbtn-primary btn-minimal mt-4" href="#">Leer más<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
             </div>
-            <!-- Work Step Wrapper -->
-            <div class="work-step-wrapper">
-              <!-- Single Work Step -->
-              <div class="single-work-step d-flex mb-4"><span>1</span>
-                <div class="work-step-text">
-                  <h6>Collect your data</h6>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eaque? Ullam minus illum quasi reprehenderit.</p>
-                </div>
-              </div>
-              <!-- Single Work Step -->
-              <div class="single-work-step d-flex mb-4"><span>2</span>
-                <div class="work-step-text">
-                  <h6>Design prototype &amp; development</h6>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eaque? Ullam minus illum quasi reprehenderit.</p>
-                </div>
-              </div>
-            </div><a class="btn btn-info" href="#">Get Started Today</a>
+          </div>
+        </div>
+        <!-- Single Service -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card service-card wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+            <div class="card-body p-0 px-lg-0">
+              <div class="icon"><i class="bi bi-columns"></i></div>
+              <h5>Empleados</h5>
+              <p>It's crafted with the latest trend of design.</p><a class="btn btn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Single Service -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card service-card wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+            <div class="card-body p-0 px-lg-0">
+              <div class="icon"><i class="bi bi-pie-chart"></i></div>
+              <h5>Órdenes de maquila</h5>
+              <p>It's crafted with the latest trend of design.</p><a class="btn btn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Single Service -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card service-card wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
+            <div class="card-body p-0 px-lg-0">
+              <div class="icon"><i class="bi bi-sun"></i></div>
+              <h5>Nóminas</h5>
+              <p>It's crafted with the latest trend of design.</p><a class="btn btn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Single Service -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card service-card wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+            <div class="card-body p-0 px-lg-0">
+              <div class="icon"><i class="bi bi-tools"></i></div>
+              <h5>Consultas y reportes</h5>
+              <p>It's crafted with the latest trend of design.</p><a class="btn btn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Single Service -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card service-card wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
+            <div class="card-body p-0 px-lg-0">
+              <div class="icon"><i class="bi bi-play"></i></div>
+              <h5>Seguridad</h5>
+              <p>It's crafted with the latest trend of design.</p><a class="btn btn-dark btn-minimal mt-4" href="#">Learn more<i class="bi bi-arrow-right fz-16 ms-1"></i></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="mb-120 d-block"></div>
-  <!-- Features Area-->
-  <div class="feature-area feature2 pt-120 pb-120">
+  <!-- Beneficios-->
+  <div class="saasbox-tab-area">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 col-sm-9 col-lg-8">
+        <div class="col-12 col-sm-10 col-md-9 col-lg-8">
           <div class="section-heading text-center">
-            <h6 class="text-dark">Why choose us</h6>
-            <h2>We have been running many successful business studios.</h2>
-            <p class="text-dark">It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template.</p>
+            {{-- <h6>Awarded Company</h6> --}}
+            <h2>BeAwesome stunning smart &amp; dynamic feature for your website.</h2>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row g-4 g-xxl-5">
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="card feature2-card shadow-lg wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-            <div class="card-body">
-              <div class="feature-icon mb-4 text-primary"><i class="bi bi-bootstrap-fill"></i></div>
-              <h5>Bootstrap 5.1</h5>
-              <p>Build fast, responsive sites with Bootstrap.</p><a class="btn btn-primary btn-minimal" href="#">Learn more...</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="card feature2-card shadow-lg wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="card-body">
-              <div class="feature-icon mb-4 text-warning"><i class="bi bi-code-slash"></i></div>
-              <h5>Vanilla JS</h5>
-              <p>The write less, do more with JavaScript Library.</p><a class="btn btn-info btn-minimal" href="#">Learn more...</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="card feature2-card shadow-lg wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="card-body">
-              <div class="feature-icon mb-4 text-danger"><i class="bi bi-bullseye"></i></div>
-              <h5>Pug Supported</h5>
-              <p>It compiles to HTML and has a simplified syntax.</p><a class="btn btn-danger btn-minimal" href="#">Learn more...</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="card feature2-card shadow-lg wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="card-body">
-              <div class="feature-icon mb-4 text-info"><i class="bi bi-braces"></i></div>
-              <h5>SCSS Featured</h5>
-              <p>Sass is the stable &amp; powerful grade CSS.</p><a class="btn btn-dark btn-minimal" href="#">Learn more...</a>
+      <div class="row">
+        <div class="col-12">
+          <div class="tab--area">
+            <ul class="nav nav-tabs" id="saasboxTab" role="tablist">
+              <li class="nav-item"><a class="nav-link active" id="tab--1" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Beneficios para el propietario</a></li>
+              <li class="nav-item"><a class="nav-link" id="tab--2" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Beneficios para los administrativos</a></li>
+              <li class="nav-item"><a class="nav-link" id="tab--3" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Beneficios para los operadores</a></li>
+            </ul>
+            <div class="tab-content" id="saasboxTabContent">
+              <!-- Tab Pane-->
+              <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab--1">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-12 col-sm-9 col-md-6">
+                    <div class="tab--text mt-3 mt-lg-5">
+                      <h6>Beneficios para el propietario</h6>
+                      <h2 class="mb-3">Aumenta la producción e ingreso de la empresa</h2>
+                      <p>Anticipación de la demanda de los clientes gracias al control total de las etapas de cada proceso.</p>
+                      <ul class="list-unstyled">
+                        <li><i class="alert-info bi bi-check"></i>Control de avance de producción</li>
+                        <li><i class="alert-info bi bi-check"></i>Reducción de costes de producción y plazos de entrega</li>
+                        <li><i class="alert-info bi bi-check"></i>Consulta de expediente electrónico</li>
+                        <li><i class="alert-info bi bi-check"></i>Seguimiento de fondos de ahorro</li>
+                        <li><i class="alert-info bi bi-check"></i>Pagos oficiales al IMSS e INFONAVIT</li>
+                      </ul>
+                      <div class="progress mt-4">
+                        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div><span class="d-block fz-12">Tasa de satisfacción de clientes: 100%</span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-9 col-md-6">
+                    <div class="tab-thumb mt-5 ms-lg-5"><img src="img/illustrator/4.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Tab Pane-->
+              <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab--2">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-12 col-sm-9 col-md-6">
+                    <div class="tab--text mt-3 mt-lg-5">
+                      <h6>Beneficios para los administrativos</h6>
+                      <h2 class="mb-3">Mejor control del trabajo que realizan los empleados.</h2>
+                      <p>Acceso fácil a información de empleados, empresa y productos producidos por la empresa.</p>
+                      <ul class="list-unstyled">
+                        <li><i class="alert-info bi bi-check"></i>Seguimiento y control de procesos de producción en las prendas</li>
+                        <li><i class="alert-info bi bi-check"></i>Cálculo de costo de producción</li>
+                        <li><i class="alert-info bi bi-check"></i>Importe de pago a empleados por trabajo realizado (Destajo) </li>
+                        <li><i class="alert-info bi bi-check"></i>Creación fácil de nómina por detajo </li>
+                        <li><i class="alert-info bi bi-check"></i>Creación de reportes con la información recabada </li>
+                        <li><i class="alert-info bi bi-check"></i>Controla el registro de asistencia </li>
+                      </ul>
+                      <div class="progress mt-4">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div><span class="d-block fz-12">Clients Return Rate: 70%</span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-9 col-md-6">
+                    <div class="tab-thumb mt-5 ms-lg-5"><img src="img/illustrator/bg-1.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Tab Pane-->
+              <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab--3">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-12 col-sm-9 col-md-6">
+                    <div class="tab--text mt-3 mt-lg-5">
+                      <h6>Beneficios para los operadores</h6>
+                      <h2 class="mb-3">Evita errores de captura de los tickets e información de los empleados</h2>
+                      <p>Un control mas estricto sobre los costes de producción,
+                        con indicadores en tiempo real que permite identificar
+                        desfases en los procesos, los cuales podrían poner en
+                        riesgo la rentabilidad o la calidad de los productos que se
+                        fabrican.</p>
+                      <ul class="list-unstyled">
+                        <li><i class="alert-info bi bi-check"></i>Un control más estricto sobre los costos de producción</li>
+                        <li><i class="alert-info bi bi-check"></i>Facilidad de agregar tareas</li>
+                        <li><i class="alert-info bi bi-check"></i>Pagos justos y exactos</li>
+                      </ul>
+                      <div class="progress mt-4">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div><span class="d-block fz-12">Business Solution Rate: 85%</span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-9 col-md-6">
+                    <div class="tab-thumb mt-5 ms-lg-5"><img src="img/illustrator/bg-2.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
   <div class="mb-120 d-block"></div>
   <!-- Pricing Plan Area-->
   <div class="saasbox-pricing-plan-area price2">
