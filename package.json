@@ -19,6 +19,10 @@
         "@babel/traverse": "^7.24.6",
         "express": "^4.19.2",
         "follow-redirects": "^1.15.6",
+        "json5": "^2.2.3",
+        "loader-utils": "^3.2.1",
+        "terser": "^5.31.0",
+        "webpack": "^5.91.0",
         "webpack-dev-middleware": "^7.2.1"
     }
 }
